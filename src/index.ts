@@ -32,5 +32,7 @@ export type i16 = number;
 export type int = number;
 export type float = number;
 export type double = number;
-
 export type char = string;
+
+import ifes from "./ife";
+export const ife = ifes;

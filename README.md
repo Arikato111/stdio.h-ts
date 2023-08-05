@@ -24,11 +24,26 @@ yarn add stdio.h
 
 ## Example
 
+#### printf
 
 ```ts
-import { int, printf } from "../dist/index";
+import { int, printf } from "stdio.h";
 
 let n1: int = 20;
 let n2: int = 30;
 printf("%d+%d = %d", n1, n2, n1 + n2);
+```
+
+#### ife
+
+```ts
+import { int, printf, ife } from "stdio.h";
+
+ife(
+  20 > 10,
+  () => printf("true"),
+  () => printf("false")
+);
+
+
 ```
