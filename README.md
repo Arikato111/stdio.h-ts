@@ -47,3 +47,20 @@ ife(
 
 
 ```
+
+#### swap
+
+```ts
+import { _int, printf, swap } from "stdio.h";
+
+let i: _int = [20];
+let j: _int = [150];
+
+printf("i = %d, j = %d", i, j);
+swap(i, j);
+printf("i = %d, j = %d", i, j);
+
+// output
+// i = 20, j = 150
+// i = 150, j = 20
+```

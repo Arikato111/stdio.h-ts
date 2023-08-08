@@ -59,3 +59,6 @@ export type _char = [string];
 
 import ifes from "./ife";
 export const ife = ifes;
+
+import swap_pt from './swap'
+export const swap = swap_pt;
