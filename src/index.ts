@@ -56,9 +56,13 @@ export type _double = [number];
 
 export type char = string;
 export type _char = [string];
+export type _str = [string];
 
 import ifes from "./ife";
 export const ife = ifes;
 
+// for func
 import swap_pt from './swap'
 export const swap = swap_pt;
+import sprintf_pt from "./sprintf";
+export const sprintf = sprintf_pt;

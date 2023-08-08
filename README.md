@@ -64,3 +64,16 @@ printf("i = %d, j = %d", i, j);
 // i = 20, j = 150
 // i = 150, j = 20
 ```
+
+#### sprintf
+
+```ts
+import { _str, printf, sprintf } from "stdio.h";
+
+let text: _str = [''];
+sprintf(text, "result = %d", 10) ;
+printf("%s", text);
+
+// output
+// result = 10
+```
